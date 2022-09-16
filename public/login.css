@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 2rem;
+  min-height: 100vh;  
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+}
+
+#game-app {
+  padding: 2rem;
+  background-color: white;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+h2 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+#game-app h3 {
+  text-align: center;
+}
+
+.auth-error {
+  color: rgb(201, 3, 3);  
+  display: flex;
+  justify-content: center;
+}
+
+.not-auth-error {
+  display: none;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username-label {
+  padding: 1rem;
+}
+
+.username {
+  margin-left: 1rem;
+}
+
+.login {
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: #1A237E;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login:disabled {
+  color: grey;
+  border: 2px solid grey;
+  background-color: white;
+}
+
+.invalid-username-message {
+  color: rgb(201, 3, 3);
+}
+
+.invalid-username-message.isInvalidUsernameNotVisible {
+  display: none;
+}
+
+.invalid-username-message.isInvalidUsernameVisible{
+  display: flex;
+  justify-content: center;
+}

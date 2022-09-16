@@ -1,0 +1,24 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "Word game",
+  "main": "words.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seainfo6250/student--sowm-asok.git"
+  },
+  "author": "Sowmya Asokan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seainfo6250/student--sowm-asok/issues"
+  },
+  "homepage": "https://github.com/seainfo6250/student--sowm-asok#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}
